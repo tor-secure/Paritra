@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Paritra — modern consent management for privacy-first businesses." />
+  <title>Paritra — Privacy Compliance Made Simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container">
+      <a class="brand" href="#home" aria-label="Paritra home">
+        <span class="brand-mark">
+          <span></span>
+          <span></span>
+        </span>
+        <span class="brand-copy">
+          <strong>Paritra</strong>
+          <small>Safeguarding the Future</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#product">Product</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">About</a>
+        <div class="nav-actions">
+          <a class="btn btn-ghost" href="#pricing">Sign in</a>
+          <a class="btn btn-primary" href="#contact">Get Started <span>→</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow">
+            <span class="pulse-dot"></span>
+            Trusted by privacy-first teams
+          </div>
+
+          <h1>Privacy compliance<br />made <span>simple.</span></h1>
+
+          <p class="hero-text">
+            Collect, manage, and prove user consent across every digital touchpoint.
+            Paritra helps modern businesses build trust while staying ready for evolving privacy requirements.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="#contact">Start Free Trial <span>→</span></a>
+            <a class="btn btn-outline btn-large" href="#product">
+              <span class="play-icon">▶</span>
+              Watch Demo
+            </a>
+          </div>
+
+          <div class="hero-proof">
+            <span>✓ No credit card required</span>
+            <span>✓ Setup in minutes</span>
+            <span>✓ Enterprise ready</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="dashboard-shell floating">
+            <div class="dashboard-sidebar">
+              <div class="side-logo"><span class="mini-shield">◆</span> Paritra</div>
+              <div class="side-menu">
+                <span class="active">◈ Dashboard</span>
+                <span>▣ Consent Banners</span>
+                <span>⌁ Trackers</span>
+                <span>▤ Reports</span>
+                <span>◉ Policies</span>
+                <span>⌘ Integrations</span>
+                <span>⚙ Settings</span>
+              </div>
+            </div>
+            <div class="dashboard-main">
+              <div class="dash-top">
+                <div>
+                  <strong>Good morning!</strong>
+                  <small>Here’s what’s happening with your consent data.</small>
+                </div>
+                <div class="date-pill">◷ Sep 1 — Sep 30, 2026</div>
+              </div>
+
+              <div class="stat-grid">
+                <div class="stat-card">
+                  <span>Total Visitors</span>
+                  <strong>125,430</strong>
+                  <em class="up">↑ 12%</em>
+                </div>
+                <div class="stat-card">
+                  <span>Consent Rate</span>
+                  <strong>78.4%</strong>
+                  <em class="up">↑ 5%</em>
+                </div>
+                <div class="stat-card">
+                  <span>Trackers Detected</span>
+                  <strong>48</strong>
+                  <em class="down">↓ 3%</em>
+                </div>
+                <div class="stat-card">
+                  <span>Active Policies</span>
+                  <strong>6</strong>
+                  <em class="up">↑ 0%</em>
+                </div>
+              </div>
+
+              <div class="dash-lower">
+                <div class="chart-card">
+                  <div class="card-head">
+                    <div>
+                      <strong>Consent Trends</strong>
+                      <small>Last 30 days</small>
+                    </div>
+                    <div class="legend">
+                      <span><i class="legend-dot blue"></i> Accepted</span>
+                      <span><i class="legend-dot purple"></i> Rejected</span>
+                    </div>
+                  </div>
+                  <div class="chart">
+                    <div class="chart-lines">
+                      <span></span><span></span><span></span><span></span>
+                    </div>
+                    <svg viewBox="0 0 520 190" preserveAspectRatio="none" aria-hidden="true">
+                      <defs>
+                        <linearGradient id="areaBlue" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0" stop-color="#2c7df4" stop-opacity=".20"/>
+                          <stop offset="1" stop-color="#2c7df4" stop-opacity="0"/>
+                        </linearGradient>
+                      </defs>
+                      <path class="area-path" d="M0,150 C45,120 55,135 85,118 C120,97 145,125 170,105 C195,85 220,110 245,89 C275,66 302,82 329,61 C350,46 376,73 400,53 C430,30 455,57 490,35 C502,28 510,18 520,8 L520,190 L0,190 Z"/>
+                      <path class="line-path blue-stroke" d="M0,150 C45,120 55,135 85,118 C120,97 145,125 170,105 C195,85 220,110 245,89 C275,66 302,82 329,61 C350,46 376,73 400,53 C430,30 455,57 490,35 C502,28 510,18 520,8"/>
+                      <path class="line-path purple-stroke" d="M0,168 C45,155 62,168 88,151 C116,135 142,145 171,132 C200,121 214,136 244,121 C272,108 297,125 325,111 C353,100 381,112 406,92 C432,79 463,90 490,73 C507,64 514,55 520,53"/>
+                    </svg>
+                    <div class="chart-labels">
+                      <span>Sep 1</span><span>Sep 7</span><span>Sep 14</span><span>Sep 21</span><span>Sep 30</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="country-card">
+                  <div class="card-head">
+                    <div>
+                      <strong>Top Countries</strong>
+                      <small>Consent share</small>
+                    </div>
+                  </div>
+                  <div class="country-row"><span>🇮🇳 India</span><strong>32%</strong></div>
+                  <div class="country-row"><span>🇺🇸 United States</span><strong>28%</strong></div>
+                  <div class="country-row"><span>🇬🇧 United Kingdom</span><strong>12%</strong></div>
+                  <div class="country-row"><span>🇩🇪 Germany</span><strong>8%</strong></div>
+                  <div class="country-row"><span>🌍 Others</span><strong>20%</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cookie-card">
+            <div class="cookie-icon">♢</div>
+            <div>
+              <strong>We value your privacy</strong>
+              <p>We use cookies to improve your browsing experience, serve personalized content, and analyze traffic.</p>
+              <div class="cookie-actions">
+                <button>Manage Preferences</button>
+                <button class="accept">Accept All</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trusted-strip container reveal">
+        <span>TRUSTED BY PRIVACY-FIRST TEAMS</span>
+        <div class="logos">
+          <b>Microsoft</b>
+          <b>Google</b>
+          <b>Meta</b>
+          <b>amazon</b>
+          <b>Adobe</b>
+          <b>shopify</b>
+          <b>Salesforce</b>
+          <b>PayPal</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="section feature-ribbon" id="product">
+      <div class="container">
+        <div class="feature-ribbon-grid reveal">
+          <article class="mini-feature">
+            <div class="icon-box green">⌂</div>
+            <div><h3>Global Compliance</h3><p>DPDP, GDPR, CCPA, LGPD and more</p></div>
+          </article>
+          <article class="mini-feature">
+            <div class="icon-box purple">&lt;/&gt;</div>
+            <div><h3>Automatic Detection</h3><p>Find and classify trackers instantly</p></div>
+          </article>
+          <article class="mini-feature">
+            <div class="icon-box blue">⚙</div>
+            <div><h3>Smart Consent</h3><p>Customizable, accessible and responsive</p></div>
+          </article>
+          <article class="mini-feature">
+            <div class="icon-box cyan">▤</div>
+            <div><h3>Audit-Ready Reports</h3><p>Evidence you can actually prove</p></div>
+          </article>
+          <article class="mini-feature">
+            <div class="icon-box sky">⌁</div>
+            <div><h3>Seamless Integrations</h3><p>Fits your existing stack</p></div>
+          </article>
+          <article class="mini-feature">
+            <div class="icon-box violet">ϟ</div>
+            <div><h3>Built for Scale</h3><p>From startups to enterprises</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="features">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow centered">WHY PARITRA</div>
+          <h2>More than just a <span>consent banner.</span></h2>
+          <p>Give your team the tools, automation, and visibility to build privacy into the customer experience.</p>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="why-icon">◌</div>
+            <h3>Stay compliant everywhere</h3>
+            <p>Create jurisdiction-aware policies and consent experiences without rebuilding your website for every region.</p>
+            <a href="#contact">Explore compliance →</a>
+          </article>
+          <article class="why-card reveal reveal-delay">
+            <div class="why-icon">✦</div>
+            <h3>Save time with automation</h3>
+            <p>Automate discovery, policy changes, tracker controls, and recurring privacy workflows with less manual work.</p>
+            <a href="#contact">See automation →</a>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon">▥</div>
+            <h3>Gain deeper insights</h3>
+            <p>Understand consent trends by country, device, browser, category, and policy version from one workspace.</p>
+            <a href="#contact">View analytics →</a>
+          </article>
+          <article class="why-card reveal reveal-delay">
+            <div class="why-icon">♢</div>
+            <h3>Build customer trust</h3>
+            <p>Give customers clear choices, transparent controls, and an experience that puts privacy first.</p>
+            <a href="#contact">See the experience →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section capabilities">
+      <div class="container capabilities-grid">
+        <div class="cap-copy reveal">
+          <div class="eyebrow">ONE PLATFORM</div>
+          <h2>Everything your privacy team needs, in one place.</h2>
+          <p>
+            Replace disconnected consent tools with a unified layer for collection, policy management,
+            enforcement, reporting, and customer choice.
+          </p>
+
+          <div class="check-list">
+            <div><span>✓</span><strong>Consent lifecycle management</strong></div>
+            <div><span>✓</span><strong>Tracker and vendor visibility</strong></div>
+            <div><span>✓</span><strong>Cryptographic consent evidence</strong></div>
+            <div><span>✓</span><strong>APIs for server-side enforcement</strong></div>
+          </div>
+
+          <a class="btn btn-primary" href="#pricing">Explore plans <span>→</span></a>
+        </div>
+
+        <div class="cap-visual reveal reveal-delay">
+          <div class="orbit-card orbit-main">
+            <div class="orbit-head">
+              <strong>Consent intelligence</strong>
+              <span class="status">Live</span>
+            </div>
+            <div class="orbit-score">94<span>/100</span></div>
+            <p>Consent quality score</p>
+            <div class="score-bar"><span></span></div>
+            <div class="orbit-stats">
+              <div><b>98.2%</b><small>Policy coverage</small></div>
+              <div><b>48</b><small>Trackers mapped</small></div>
+              <div><b>7</b><small>Active regions</small></div>
+            </div>
+          </div>
+          <div class="floating-pill pill-a">✓ Policy synced</div>
+          <div class="floating-pill pill-b">↗ +12.4% consent</div>
+          <div class="floating-pill pill-c">◈ 0 critical gaps</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow centered">SIMPLE PRICING</div>
+          <h2>Plans that scale with <span>your business.</span></h2>
+          <p>Start simple and grow into more advanced controls as your privacy program matures.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <div class="price-top">
+              <span class="plan-name">Starter</span>
+              <span class="plan-tag">For growing teams</span>
+            </div>
+            <div class="price"><strong>₹1,999</strong><span>/ month</span></div>
+            <p>Core consent management for small websites and teams.</p>
+            <a href="#contact" class="btn btn-outline full">Get Started</a>
+            <ul>
+              <li>✓ Consent banner & preference center</li>
+              <li>✓ Basic tracker scanning</li>
+              <li>✓ Consent analytics</li>
+              <li>✓ 1 website</li>
+            </ul>
+          </article>
+
+          <article class="price-card featured reveal reveal-delay">
+            <div class="popular">MOST POPULAR</div>
+            <div class="price-top">
+              <span class="plan-name">Growth</span>
+              <span class="plan-tag">For scaling businesses</span>
+            </div>
+            <div class="price"><strong>₹7,999</strong><span>/ month</span></div>
+            <p>Advanced controls, automation, and richer reporting.</p>
+            <a href="#contact" class="btn btn-primary full">Start Free Trial <span>→</span></a>
+            <ul>
+              <li>✓ Everything in Starter</li>
+              <li>✓ Advanced geo rules</li>
+              <li>✓ Google Consent Mode</li>
+              <li>✓ Cross-domain consent</li>
+              <li>✓ Audit-ready reports</li>
+            </ul>
+          </article>
+
+          <article class="price-card reveal">
+            <div class="price-top">
+              <span class="plan-name">Enterprise</span>
+              <span class="plan-tag">For complex programs</span>
+            </div>
+            <div class="price"><strong>Custom</strong></div>
+            <p>Enterprise governance and controls across your digital estate.</p>
+            <a href="#contact" class="btn btn-outline full">Talk to Sales</a>
+            <ul>
+              <li>✓ Everything in Growth</li>
+              <li>✓ SSO / advanced access</li>
+              <li>✓ Server-side enforcement</li>
+              <li>✓ Custom retention policies</li>
+              <li>✓ Dedicated support</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources" id="resources">
+      <div class="container">
+        <div class="resource-panel reveal">
+          <div>
+            <div class="eyebrow">BUILT FOR YOUR TEAM</div>
+            <h2>Turn privacy into a competitive advantage.</h2>
+            <p>Launch faster, reduce compliance friction, and give customers a privacy experience they can trust.</p>
+          </div>
+          <a class="btn btn-light" href="#contact">Book a demo <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container narrow">
+        <div class="section-heading reveal">
+          <div class="eyebrow centered">ABOUT PARITRA</div>
+          <h2>Privacy infrastructure for the <span>modern web.</span></h2>
+          <p>
+            Paritra combines consent management, privacy intelligence, and enforcement into a single platform
+            designed for teams that care about both compliance and customer experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <div class="eyebrow">READY TO GET STARTED?</div>
+            <h2>Build a privacy experience your customers can trust.</h2>
+            <p>Start with the basics today and add advanced controls as your organization grows.</p>
+          </div>
+          <div class="contact-actions">
+            <a href="mailto:hello@example.com" class="btn btn-primary btn-large">Talk to our team <span>→</span></a>
+            <a href="#home" class="btn btn-light-outline btn-large">Back to top ↑</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home">
+          <span class="brand-mark">
+            <span></span>
+            <span></span>
+          </span>
+          <span class="brand-copy">
+            <strong>Paritra</strong>
+            <small>Safeguarding the Future</small>
+          </span>
+        </a>
+        <p>Modern consent management for privacy-first businesses.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="#product">Overview</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Integrations</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="#resources">Guides</a>
+        <a href="#resources">Documentation</a>
+        <a href="#resources">Privacy Center</a>
+        <a href="#resources">Blog</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">Careers</a>
+        <a href="#contact">Security</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 Paritra. All rights reserved.</span>
+      <span>Privacy • Terms • Cookies</span>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
